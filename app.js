@@ -1,9 +1,9 @@
-function getTime() {
-    try {
-        const time = async () => {
-            const res = await axios.get("https://timeapi.io/api/Time/current/zone?timeZone=America/Chicago");
-        };
-    } catch (error) {
-        console.log("Error:", error);
-    }
+// const getTime = async () => {
+//     const res = await axios.get("http://worldclockapi.com/api/json/cst/now");
+//     console.log(res.data);
+// };
+
+async function getTime() {
+    const res = await axios.get("http://worldclockapi.com/api/json/cst/now");
+    console.log(res.data);
 }
