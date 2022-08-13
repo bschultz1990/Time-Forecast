@@ -1,4 +1,5 @@
-root {
+/* was: root{} */
+html {
     --darkgrey: #0000005b;
     --frosty: #ffffff3d;
     --frostywhite: #ffffff80;
